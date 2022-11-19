@@ -1,9 +1,8 @@
-# Site settings
 title: Popcorn - A Staticman sample page
-email: your-email@domain.com
+email: v986963@gmail.com
 description: Test
 baseurl: "/popcorn/" # the subpath of your site, e.g. /blog/
-url: "https://vosaul.github.io # the base hostname & protocol for your site
+url: "https://vosaul.github.io" # the base hostname & protocol for your site
 twitter_username: vosaul
 github_username:  vosaul
 movieFormUrl: https://staticman.net/api/v1/entries/5622d244c4bf944a1a3e3001
@@ -13,11 +12,11 @@ markdown: kramdown
 
 # Staticman
 staticman:
- allowedFields: ['address', 'name', 'title', 'description', 'rating']
- branch: gh-pages
- commitMessage: "Hey human, here is a new entry."
- filename: "entry{@timestamp}"
- format: yml
- moderation: true
- path: "_data/reviews"
- requiredFields: ['name', 'title', 'description', 'rating']
+  allowedFields: ['address', 'name', 'title', 'description', 'rating']
+  branch: gh-pages
+  commitMessage: "Hey human, here is a new entry."
+  filename: "entry{@timestamp}"
+  format: yml
+  moderation: true
+  path: "_data/reviews"
+  requiredFields: ['name', 'title', 'description', 'rating']
